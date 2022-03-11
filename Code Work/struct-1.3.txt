@@ -1,0 +1,26 @@
+Input a ID of student (negative number to exit) : 343
+What is the lost item? (the name of the item must be written together without spaces) : umbrella
+
+Input a ID of student (negative number to exit) : 45
+What is the lost item? (the name of the item must be written together without spaces) : shoes
+
+Input a ID of student (negative number to exit) : 343
+What is the lost item? (the name of the item must be written together without spaces) : glasses
+
+Input a ID of student (negative number to exit) : 343
+What is the lost item? (the name of the item must be written together without spaces) : hat
+
+Input a ID of student (negative number to exit) : 65
+What is the lost item? (the name of the item must be written together without spaces) : book
+
+Input a ID of student (negative number to exit) : 45
+What is the lost item? (the name of the item must be written together without spaces) : key
+
+Input a ID of student (negative number to exit) : 343
+What is the lost item? (the name of the item must be written together without spaces) : dog
+
+Input a ID of student (negative number to exit) : -1
+
+Inviting student No.45 to pick up their shoes and key back.
+Inviting student No.65 to pick up their book back.
+Inviting student No.343 to pick up their umbrella, glasses, hat and dog back.
