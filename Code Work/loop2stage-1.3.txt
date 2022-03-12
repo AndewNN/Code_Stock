@@ -1,0 +1,41 @@
+What is your type? (1-teacher, 2-women, 3-man or else to exit)
+Type : 1 36 10
+What is ID of teacher?
+ID : what time is?
+Time :  ==Accepted==
+
+What is your type? (1-teacher, 2-women, 3-man or else to exit)
+Type : 2 12 8
+What is ID of student?
+ID : what time is?
+Time :  ==Accepted==
+
+What is your type? (1-teacher, 2-women, 3-man or else to exit)
+Type : 3 7 5
+What is ID of student?
+ID : what time is?
+Time :  ==Accepted==
+
+What is your type? (1-teacher, 2-women, 3-man or else to exit)
+Type : 1 4 10
+What is ID of teacher?
+ID : what time is?
+Time :  ==Accepted==
+
+What is your type? (1-teacher, 2-women, 3-man or else to exit)
+Type : 2 8 9
+What is ID of student?
+ID : what time is?
+Time :  ==Accepted==
+
+What is your type? (1-teacher, 2-women, 3-man or else to exit)
+Type : 3 6 1
+What is ID of student?
+ID : what time is?
+Time :  ==Accepted==
+
+What is your type? (1-teacher, 2-women, 3-man or else to exit)
+Type : -1
+
+        Number of user : 6
+        Order of queue : 36 4 12 8 6 7

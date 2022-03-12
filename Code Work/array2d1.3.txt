@@ -1,0 +1,37 @@
+Get values for the number of buildings(in which building numbers will be chased from 1-n) : 8
+Get values for the number of walkways between buildings : 8
+
+Get 2 number instead walkway between 2 building : 1 2
+Get value for distance between these 2 building : 50
+
+Get 2 number instead walkway between 2 building : 2 3
+Get value for distance between these 2 building : 10
+
+Get 2 number instead walkway between 2 building : 2 5
+Get value for distance between these 2 building : 200
+
+Get 2 number instead walkway between 2 building : 3 4
+Get value for distance between these 2 building : 20
+
+Get 2 number instead walkway between 2 building : 4 5
+Get value for distance between these 2 building : 40
+
+Get 2 number instead walkway between 2 building : 6 7
+Get value for distance between these 2 building : 20
+
+Get 2 number instead walkway between 2 building : 6 8
+Get value for distance between these 2 building : 10
+
+Get 2 number instead walkway between 2 building : 7 8
+Get value for distance between these 2 building : 30
+
+Get value for the number of questions : 3
+
+Get 2 number for lowest sun block you have to use for go between 2 building : 1 5
+Lowest sun block you have to use is 600 ml.(5 ml. per meter)
+
+Get 2 number for lowest sun block you have to use for go between 2 building : 6 8
+Lowest sun block you have to use is 50 ml.(5 ml. per meter)
+
+Get 2 number for lowest sun block you have to use for go between 2 building : 1 8
+This 2 building don't have way to go
