@@ -1,1 +1,0 @@
-printf("do1 %lld %lld \n",t.i,t.w);
