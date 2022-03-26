@@ -1,22 +1,21 @@
 #include<bits/stdc++.h>
 using namespace std;
 char a[30][30], b[20];
-int n, m, ch, si, sj, len, di[8] = { -1,-1,0,1,1,1,0,-1 }, dj[8] = { 0,1,1,1,0,-1,-1,-1 };//, mk[30][30];
+int n, m, ch, si, sj, len, di[8] = { -1,-1,0,1,1,1,0,-1 }, dj[8] = { 0,1,1,1,0,-1,-1,-1 }, mk[30][30];
 void play(int i, int j, int s) {
-    if (ch)
-        return;
     if (s == len - 1) {
-        printf("%d %d\n", si, sj);
+        if (!ch)
+            printf("%d %d\n", si, sj);
         ch = 1;
         return;
     }
     for (int k = 0;k < 8;k++) {
         int ii = i + di[k], jj = j + dj[k];
-        if (ii < 0 || jj < 0 || ii >= n || jj >= m)    continue;
+        if (ii < 0 || jj < 0 || ii >= n || jj >= m || mk[ii][jj])    continue;
         if (a[ii][jj] == b[s + 1]) {
-            // mk[ii][jj] = 1;
+            mk[ii][jj] = 1;
             play(ii, jj, s + 1);
-            // mk[ii][jj] = 0;
+            mk[ii][jj] = 0;
         }
     }
     return;
