@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 char a[50][50], b[50];
-int n, m, ch, si, sj, len, di[8] = { -1,-1,0,1,1,1,0,-1 }, dj[8] = { 0,1,1,1,0,-1,-1,-1 }, mk[30][30];
+int n, m, ch, si, sj, len, di[8] = { -1,-1,0,1,1,1,0,-1 }, dj[8] = { 0,1,1,1,0,-1,-1,-1 }, mk[50][50];
 void play(int i, int j, int s) {
     if (s == len - 1) {
         if (!ch)
