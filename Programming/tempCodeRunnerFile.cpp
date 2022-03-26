@@ -11,4 +11,4 @@ yUiqlxcnBje
 Compute
 Queue
 stack
-Pointer
+ieruraosucdq

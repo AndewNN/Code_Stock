@@ -34,14 +34,15 @@ int main() {
         for (i = 0;i < strlen(b);b[i] = tolower(b[i]), i++);
         len = strlen(b);
         ch = 0;
-        for (i = 0;i < n;i++) {
+        for (i = 0;i < n;i++)
             for (j = 0;j < m;j++) {
                 if (a[i][j] == b[0]) {
                     si = i, sj = j;
+                    mk[i][j] = 1;
                     play(i, j, 0);
+                    mk[i][j] = 0;
                 }
             }
-        }
     }
 
 }
@@ -60,6 +61,6 @@ yUiqlxcnBje
 Compute
 Queue
 stack
-Pointer
+ieruraosucdq
 
 */
