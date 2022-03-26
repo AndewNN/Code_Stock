@@ -31,7 +31,7 @@ int main() {
     scanf("%d", &q);
     while (q--) {
         scanf(" %s", b);
-        for (i = 0;i < strlen(b);b[i] = tolower(b[i]), i++);
+        for (i = 0;i < strlen(b); i++)b[i] = tolower(b[i]);
         len = strlen(b);
         ch = 0;
         memset(mk, 0, sizeof mk);
