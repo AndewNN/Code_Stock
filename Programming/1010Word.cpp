@@ -34,6 +34,7 @@ int main() {
         for (i = 0;i < strlen(b);b[i] = tolower(b[i]), i++);
         len = strlen(b);
         ch = 0;
+        memset(mk, 0, sizeof mk);
         for (i = 0;i < n;i++)
             for (j = 0;j < m;j++) {
                 if (a[i][j] == b[0]) {
