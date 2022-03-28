@@ -1,2 +1,2 @@
 
-    cout << "in";
+            printf("%d\n", d);
