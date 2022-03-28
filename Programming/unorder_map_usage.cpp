@@ -12,17 +12,13 @@ void printFrequencies(const string& str)
     stringstream ss(str);  // Used for breaking words
     string word; // To store individual words
     while (ss >> word)
-    {
-        cout << word << "\n";
-    }
-    while (ss >> word)
         wordFreq[word]++;
 
     // now iterating over word, freq pair and printing
     // them in <, > format
     unordered_map<string, int>::iterator p;
-    for (p = wordFreq.begin(); p != wordFreq.end(); p++)
-        cout << "(" << p->first << ", " << p->second << ")\n";
+    for (auto p : wordFreq)
+        cout << "(" << p.first << ", " << p.second << ")\n";
 }
 
 // Driver code
