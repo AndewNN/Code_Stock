@@ -2,6 +2,12 @@
 using namespace std;
 string s = "HII";
 int main() {
-    ios_base::sync_with_stdio(0);cin.tie(0);
-    cout << (-1) % 5;
+    int i, j, dd[10];
+    scanf("%d / %d / %d %d : %d", &dd[0], &dd[1], &dd[2], &dd[3], &dd[4]);
+    printf("%d %d %d %d %d", dd[0], dd[1], dd[2], dd[3], dd[4]);
 }
+/*
+
+7/8/9 10:24
+
+*/
