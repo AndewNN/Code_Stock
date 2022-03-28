@@ -3,25 +3,25 @@ using namespace std;
 int dir, x, y;
 string o, dd = "ESWN";
 int main() {
+    ios_base::sync_with_stdio(0);cin.tie(0);
     int n, s, ch = 1;
-    scanf("%d", &n);
+    cin >> n;
     while (n--) {
-        scanf(" %s %d", o, &s);
-        if (o == "LT")  dir = (dir - 1) % 4;
+        cin >> o >> s;
+        if (o == "LT")  dir = (dir + 3) % 4;
         if (o == "RT")  dir = (dir + 1) % 4;
-        if (o == "BW")  dir = (-dir) % 4;
+        if (o == "BW")  dir = (dir + 2) % 4;
 
         if (dir == 0)    x += s;
         if (dir == 1)    y -= s;
         if (dir == 2)    x -= s;
         if (dir == 3)    y += s;
-
         if (abs(x) >= 50000 || abs(y) >= 50000)
             ch = 0;
     }
     if (ch)
-        printf("%d %d\n%c", x, y, dd[dir]);
+        cout << x << " " << y << "\n" << dd[dir];
     else
-        printf("DEAD");
+        cout << "DEAD";
 
 }
