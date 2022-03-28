@@ -1,3 +1,6 @@
+/*
+algo : Nugget, Bottom Up
+*/
 #include<bits/stdc++.h>
 using namespace std;
 int dp[110], s[5] = { 6,9,20 };
