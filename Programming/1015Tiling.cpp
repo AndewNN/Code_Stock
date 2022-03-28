@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 unordered_map<int, int> ump;
-int a[20][20], si, di[4] = { -1,0,1,0 }, dj[4] = { 0,1,0,-1 }, n, ans, mk[20][20];
+int a[20][20], si, n, ans, di[4] = { -1,0,1,0 }, dj[4] = { 0,1,0,-1 }, mk[20][20];
 void play(int i, int j, int dir) {
     ump[dir] = 1;
     si += 1;
