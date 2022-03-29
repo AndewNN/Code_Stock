@@ -1,13 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
-string s = "HII";
+priority_queue<pair<int, char > > hp;
+
 int main() {
-    int i, j, dd[10];
-    scanf("%d / %d / %d %d : %d", &dd[0], &dd[1], &dd[2], &dd[3], &dd[4]);
-    printf("%d %d %d %d %d", dd[0], dd[1], dd[2], dd[3], dd[4]);
+    hp.push(make_pair(10, 'H'));
+    hp.push(make_pair(10, 'A'));
+    cout << hp.top().first << " " << hp.top().second;
 }
-/*
-
-7/8/9 10:24
-
-*/
