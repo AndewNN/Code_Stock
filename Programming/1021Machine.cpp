@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-priority_queue<int> hp;
+priority_queue<int > hp;
 int main() {
     int n, i;
     char o;
