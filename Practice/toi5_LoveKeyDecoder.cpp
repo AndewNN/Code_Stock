@@ -1,5 +1,3 @@
 #include <bits/stdc++.h>
 using namespace std;
-vector<int> v[200];
-int main() {
-}
+void()
